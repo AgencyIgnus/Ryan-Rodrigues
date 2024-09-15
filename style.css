@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.img1{
+    display: none;
+}
+.img2{
+    display: none;
+}
+
+.nav-bar li{
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    display: none;
+}
+
+header{
+    background-image: url(imagens/ryan-005.jpeg);
+    background-size: cover;
+   background-repeat: no-repeat;
+   min-height: 100vh;
+}
+
+nav{
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid #5151516b;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 100px;
+    
+}
+
+.logo{
+    display: flex;
+    
+}
+
+.logo h1{
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+    filter: blur();
+    
+}
+
+span{
+    color: #16AAE6;; 
+}
+
+.hero{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   
+   
+}
+
+.button button{
+    padding: 10px;
+    margin: auto;
+    border-radius: 9999px;
+    color: white;
+    background-color: #16AAE6;;
+    text-transform: uppercase;
+    transition: all .5s;
+}
+
+.button button:hover{
+    background-color: #cf7f1e;
+}
+
+.span2{
+    color: rgb(247, 130, 5);
+}
+
+.hero .flex-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    
+    
+}
+
+.button{
+    text-align: center;
+    margin-top: 370px;
+}
+
+.flex-txt p{
+    font-size: 20px;
+    margin-bottom: 25px;
+    
+    color: #040404;
+    position: relative;
+    top: 390px;
+    word-break: ;
+    
+}
+
+.quem-sou .flex{
+ display: flex;
+ flex-direction: column;
+
+}
+
+.quem-sou{
+    background-image: linear-gradient(to bottom, #29371e, rgba(78, 77, 77, 0.153), rgb(39, 39, 39)), url(./imagens/Ryan-quem.JPG);
+    background-size: cover;
+    min-height: 100vh;
+    border-top: black ;
+}
+
+.quem-sou img{
+    width: 100%;
+    border-radius: 50%;
+    
+}
+
+.quem-sou .gg{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding: 10px 0 0 0;
+}
+
+.quem-sou p{
+    color: white;
+    margin-top: 100px;
+    padding: 20px;
+    max-width: 200px;
+    font-size: 20px;
+    
+}
+
+.but button{
+    padding: 10px;
+    margin-bottom: 28px;
+    border-radius: 9999px;
+    color: white;
+    background-color: #16AAE6;;
+    text-transform: uppercase;
+    margin-top: 250px;
+    transition: all .5s;
+}
+
+.but button:hover{
+    background-color: #cf7f1e;
+}
+
+.but{
+    text-align: center;
+}
+
+/*FAQ*/
+
+.interface{
+    background-color: #fff;
+}
+
+.faq{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid black; /*LINE*/
+    cursor: pointer;
+   }
+   .section-faq{
+    min-height: 50vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .text-faq{
+    color: black;
+    font-size: 28px;
+    margin: 2rem 0rem;
+   }
+
+   .faq-ask{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   .faq-ask h3{
+    font-size: 18px;
+   }
+
+  .answer p{
+    font-size: 15px;
+    color: #7a7979;
+    padding-block: 8px;
+  }
+
+  .answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+  }
+
+  .faq.active .answer{
+    max-height: 300px;
+  }
+
+  .faq.active svg{
+    transform: rotate(180deg);
+  }
+
+  /*FOOTER*/
+
+  footer{
+    padding: 40px 4%;
+}
+
+footer img{
+    max-width: 150px;
+    
+}
+
+.line-footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+p{
+    color: rgb(86, 85, 85);
+    max-width: 400px;
+    font-size: small;
+    margin-top: 20px;
+}
+
+.chamada{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.flex2{
+    flex-direction: column;
+
+}
+
+.img1 img {
+    width: 400px;
+    margin: auto;
+
+}
+
+.flex2 p{
+    font-size: 23px;
+    color: #fff;
+    padding: 20px;
+}
+
+.chamada h2{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 50px;
+    
+}
+
+.chamada{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: space-around;
+    
+}
+
+.chamada p{
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    margin: auto;
+    
+    
+    text-align: center;
+}
+
+.chamada button{
+    padding: 15px;
+    margin-top: 30px;
+    color: white;
+    background-color: #16AAE6;
+    border-radius: 20px;
+    transition: all .5s;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+.chamada button:hover{
+    background-color: #cf7f1e;
+}
+
+.btn-wpp img{
+    width: 75px;
+    filter: drop-shadow(0 0 5px #00f535);
+   }
+
+   .btn-wpp{
+    position: fixed;
+    bottom: 14px;
+    right: 18px;
+    z-index: 99;
+   }
+
+   .btn-wpp:hover{
+    transform: scale(1.1);
+   }
+
+
+
+@media screen and (min-width: 1020px){
+
+    header{
+        background-image: url(imagens/ryan-005.jpeg);
+        background-size: 50%;
+       background-repeat: no-repeat;
+       
+       max-height: 500vh;
+    }
+
+    .hero{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .flex-txt{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        left: 350px;
+        
+    }
+
+    .flex-txt h2{
+        color: black;
+        max-width: 300px;
+    }
+
+    .flex-txt p{
+        word-break: break-all;
+        width: 300px;
+        top: 200px;
+        color: black;
+        font-weight: 100;
+    }
+
+   
+
+    body{
+       background-color:  #D6D9DE;
+    }
+
+    .quem-sou{
+        background-image: none;
+        
+        background-repeat: no-repeat;
+        max-height: 500vh;
+        border-top: black ;
+        background-position-x: right;
+        background-size: 50%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .quem-sou img{
+        width: 400px;
+        margin-right: 300px;
+        margin-top: 100px;
+        
+    }
+
+    .img2{
+        display: block;
+    }
+    
+    .quem-sou h1{
+        margin-top: 100px;
+        position: relative;
+        
+        color: black;
+    }
+
+    
+
+    .but{
+        position: relative;
+        
+        bottom: 100px;
+        
+    }
+
+    .quem-sou h1{
+        position: relative;
+        margin-bottom: 50px;
+        
+        
+    }
+
+    .flex-txt2{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+       margin: auto;
+    }
+
+    .flex-txt2 p{
+       
+        color: black;
+        align-items: center;
+        
+        width: 300px;
+        min-width: 300px;
+        word-break: break-all;
+        position: relative;
+       margin: auto;
+    }
+
+    .chamada{
+        display: flex;
+        flex-direction: row;
+        padding: 100px;
+        justify-content: space-around;
+    }
+
+    .chamada button{
+        width: 300px;
+        margin: auto;
+        height: 100px;
+
+    }
+
+    .chamada p{
+        font-size: 28px;
+        color: white;
+        
+    }
+
+    footer{
+        background-color: #fff;
+    }
+
+    .flex2 h2{
+      width: 300px;
+    }
+
+    .flex2{
+        margin: auto;
+        
+    }
+
+}
+
+
+
+
+
+@media screen and (width: 1020px)
